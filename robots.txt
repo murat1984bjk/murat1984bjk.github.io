@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://murat1984bjk.github.io/forme/sitemap.xml
