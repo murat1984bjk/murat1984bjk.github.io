@@ -20,3 +20,5 @@
     for (var i = 0; i < buttons.length; i++) buttons[i].addEventListener('click', function () { set(this.getAttribute('data-set-lang'), true); });
   });
 })();
+
+(function(){function reveal(){var id;try{id=decodeURIComponent(location.hash.slice(1));}catch(e){return;}var node=document.getElementById(id);if(node&&node.tagName==='DETAILS'){node.open=true;}}window.addEventListener('hashchange',reveal);document.addEventListener('DOMContentLoaded',reveal);})();
